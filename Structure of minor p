@@ -1,0 +1,110 @@
+sales-prediction-inventory-system/
+│
+├── 📁 frontend/                     # Web UI (React)
+│   ├── 📁 public/
+│   │   └── index.html
+│   │
+│   ├── 📁 src/
+│   │   ├── 📁 assets/               # Images, logo, icons
+│   │   ├── 📁 components/           # Reusable components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── ChartCard.jsx
+│   │   │   └── AlertBox.jsx
+│   │   │
+│   │   ├── 📁 pages/                # Application pages
+│   │   │   ├── Login.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Products.jsx
+│   │   │   ├── AddProduct.jsx
+│   │   │   ├── Sales.jsx
+│   │   │   ├── Forecast.jsx
+│   │   │   └── Reports.jsx
+│   │   │
+│   │   ├── 📁 services/             # API calls
+│   │   │   ├── authService.js
+│   │   │   ├── productService.js
+│   │   │   ├── salesService.js
+│   │   │   └── forecastService.js
+│   │   │
+│   │   ├── 📁 utils/
+│   │   │   └── auth.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── routes.jsx
+│   │
+│   ├── package.json
+│   └── README.md
+│
+├── 📁 backend/                      # Backend API
+│   ├── 📁 src/
+│   │   ├── 📁 config/
+│   │   │   ├── db.js                # Database connection
+│   │   │   └── env.js
+│   │   │
+│   │   ├── 📁 models/               # Database models
+│   │   │   ├── User.js
+│   │   │   ├── Product.js
+│   │   │   ├── Sale.js
+│   │   │   └── Forecast.js
+│   │   │
+│   │   ├── 📁 routes/               # API routes
+│   │   │   ├── authRoutes.js
+│   │   │   ├── productRoutes.js
+│   │   │   ├── salesRoutes.js
+│   │   │   └── forecastRoutes.js
+│   │   │
+│   │   ├── 📁 controllers/          # Business logic
+│   │   │   ├── authController.js
+│   │   │   ├── productController.js
+│   │   │   ├── salesController.js
+│   │   │   └── forecastController.js
+│   │   │
+│   │   ├── 📁 middleware/
+│   │   │   └── authMiddleware.js
+│   │   │
+│   │   ├── app.js
+│   │   └── server.js
+│   │
+│   ├── package.json
+│   └── README.md
+│
+├── 📁 ml-service/                   # Machine Learning Module
+│   ├── 📁 data/
+│   │   └── sales_data.csv
+│   │
+│   ├── 📁 models/
+│   │   └── sales_forecast_model.pkl
+│   │
+│   ├── 📁 notebooks/
+│   │   └── sales_prediction.ipynb
+│   │
+│   ├── train_model.py               # ML training script
+│   ├── predict.py                   # Prediction logic
+│   ├── api.py                       # Flask/FastAPI ML API
+│   └── requirements.txt
+│
+├── 📁 database/
+│   ├── schema.sql                   # DB schema
+│   └── sample_data.sql
+│
+├── 📁 docs/                         # Documentation
+│   ├── Abstract.docx
+│   ├── Problem_Statement.docx
+│   ├── ER_Diagram.png
+│   ├── DFD_Level0.png
+│   ├── Architecture_Diagram.png
+│   └── Project_Report.docx
+│
+├── 📁 diagrams/
+│   ├── ERD.drawio
+│   ├── DFD.drawio
+│   └── Architecture.drawio
+│
+├── 📁 reports/
+│   └── exported_reports/
+│
+├── .env
+├── README.md
+└── docker-compose.yml (optional)
