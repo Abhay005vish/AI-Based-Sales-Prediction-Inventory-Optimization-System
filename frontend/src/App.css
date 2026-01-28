@@ -1,0 +1,208 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #111;
+            color: #fff;
+            padding: 15px 0px;
+        }
+
+        /* ...existing code... */
+
+.navbar {
+  height: 72px;              /* change this value to desired navbar height */
+  padding: 0 20px;           /* horizontal spacing inside navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+/* adjust logo size */
+.logo {
+  font-size: 1.25rem;        /* increase/decrease for larger/smaller logo */
+  font-weight: 700;
+}
+
+/* adjust nav link / button size to match navbar */
+.nav-links a,
+.nav-links button {
+  font-size: 1rem;
+  padding: 8px 12px;
+  line-height: 1;
+}
+
+/* optional: smaller navbar on small screens */
+@media (max-width: 480px) {
+  .navbar {
+    height: 56px;
+    padding: 0 12px;
+  }
+  .logo { font-size: 1rem; }
+  .nav-links a, .nav-links button { font-size: 0.9rem; padding: 6px 8px; }
+}
+
+/* ...existing code... */
+```// filepath: c:\Users\vishw\Downloads\AI-Based-Sales-Prediction-Inventory-Optimization-System\frontend\src\App.css
+/* ...existing code... */
+
+.navbar {
+  height: 72px;              /* change this value to desired navbar height */
+  padding: 0 20px;           /* horizontal spacing inside navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+/* adjust logo size */
+.logo {
+  font-size: 1.25rem;        /* increase/decrease for larger/smaller logo */
+  font-weight: 700;
+}
+
+/* adjust nav link / button size to match navbar */
+.nav-links a,
+.nav-links button {
+  font-size: 1rem;
+  padding: 8px 12px;
+  line-height: 1;
+}
+
+/* optional: smaller navbar on small screens */
+@media (max-width: 480px) {
+  .navbar {
+    height: 56px;
+    padding: 0 12px;
+  }
+  .logo { font-size: 1rem; }
+  .nav-links a, .nav-links button { font-size: 0.9rem; padding: 6px 8px; }
+}
+
+/* ...existing code... */
+
+        main {
+            flex: 1;
+            padding: 0;
+        }
+
+        .coming-soon {
+            width: 100%;
+            background-color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            font-size: 24px;
+            color: #333;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin: 40px;
+        }
+
+        .product-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+        }
+
+        .product-image {
+            height: 150px;
+            background: #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+        }
+
+        .price {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 20px;
+            background: #111;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #555;
+        }
